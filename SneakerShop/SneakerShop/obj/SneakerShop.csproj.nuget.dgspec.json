@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\bt\\asp core\\SneakerShop\\SneakerShop\\SneakerShop.csproj": {}
+    "E:\\Sneaker\\SneakerShop\\SneakerShop\\SneakerShop.csproj": {}
   },
   "projects": {
-    "E:\\bt\\asp core\\SneakerShop\\SneakerShop\\SneakerShop.csproj": {
+    "E:\\Sneaker\\SneakerShop\\SneakerShop\\SneakerShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\bt\\asp core\\SneakerShop\\SneakerShop\\SneakerShop.csproj",
+        "projectUniqueName": "E:\\Sneaker\\SneakerShop\\SneakerShop\\SneakerShop.csproj",
         "projectName": "SneakerShop",
-        "projectPath": "E:\\bt\\asp core\\SneakerShop\\SneakerShop\\SneakerShop.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\bt\\asp core\\SneakerShop\\SneakerShop\\obj\\",
+        "projectPath": "E:\\Sneaker\\SneakerShop\\SneakerShop\\SneakerShop.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\Sneaker\\SneakerShop\\SneakerShop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Magnific.Popup": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -62,6 +63,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
+            "jQuery.Validation": {
+              "target": "Package",
+              "version": "[1.19.2, )"
+            },
+            "popper.js": {
+              "target": "Package",
+              "version": "[1.16.1, )"
             }
           },
           "imports": [
@@ -82,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -24,11 +24,16 @@
     ".NETCoreApp,Version=v3.1": {
       "SneakerShop/1.0.0": {
         "dependencies": {
+          "Magnific.Popup": "1.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.1",
           "Microsoft.AspNetCore.Identity.UI": "3.1.1",
           "Microsoft.EntityFrameworkCore": "3.1.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.1",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.1",
+          "bootstrap": "4.5.3",
+          "jQuery": "3.5.1",
+          "jQuery.Validation": "1.19.2",
+          "popper.js": "1.16.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -300,6 +305,23 @@
         },
         "compile": {
           "SneakerShop.dll": {}
+        }
+      },
+      "bootstrap/4.5.3": {
+        "dependencies": {
+          "jQuery": "3.5.1",
+          "popper.js": "1.16.1"
+        }
+      },
+      "jQuery/3.5.1": {},
+      "jQuery.Validation/1.19.2": {
+        "dependencies": {
+          "jQuery": "3.5.1"
+        }
+      },
+      "Magnific.Popup/1.1.0": {
+        "dependencies": {
+          "jQuery": "3.5.1"
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.1": {
@@ -755,6 +777,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "popper.js/1.16.1": {},
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -2934,6 +2957,34 @@
       "serviceable": false,
       "sha512": ""
     },
+    "bootstrap/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KQvCPAvvWyDErmwn+VqTLE/9skJ7Ypt2EXfmU/YXQv+0jPjz5q8HH9xsbsVVVt+vlQd3fmE1SPLPxEVMOesTRg==",
+      "path": "bootstrap/4.5.3",
+      "hashPath": "bootstrap.4.5.3.nupkg.sha512"
+    },
+    "jQuery/3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ji6sm/AI0vjASXAA/AG9Yf5ypALAqIDXFFKPHMAnFL8kp3xqULIWhACjg/OXZP88C56frYlIej2nrdBnhTMYQQ==",
+      "path": "jquery/3.5.1",
+      "hashPath": "jquery.3.5.1.nupkg.sha512"
+    },
+    "jQuery.Validation/1.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2/Cz+HM456ioL8UTu57ETIs4bmHZN4WBwl7ygQfFokbF/tm4cCMLQEg3KJ28riyOvrJqvnL5dpaCxmFIeee3CA==",
+      "path": "jquery.validation/1.19.2",
+      "hashPath": "jquery.validation.1.19.2.nupkg.sha512"
+    },
+    "Magnific.Popup/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uLPVovZ/979S8cTMSfoPQnYodFjvqZvZ9lvN8xLQGgqEucmFrLSj8chfbf4V7dGoWRwAyt92gaBCPbJJ//QSjg==",
+      "path": "magnific.popup/1.1.0",
+      "hashPath": "magnific.popup.1.1.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.1": {
       "type": "package",
       "serviceable": true,
@@ -3178,6 +3229,13 @@
       "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "path": "newtonsoft.json/12.0.2",
       "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "popper.js/1.16.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6GiVZho0vwBnId7pK7NLTjMGq4F0/VE65I08CCeKlarVoUt1w8SGTtJmhNo/0pK38EGUP/xbT4+OkWB8UTMPBw==",
+      "path": "popper.js/1.16.1",
+      "hashPath": "popper.js.1.16.1.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Product Detail";
+}
+
+<section class="shop-details">
+    <div class="product-details-pic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="product-details-breadcrumb">
+                        <a class="product-top-a" href="#">Home ></a>
+                        <a class="product-top-a" href="#">Shop ></a>
+                        <span>Product Details</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row product-detail-info">
+                <div class="col-lg-6 col-md-6 product-pics">
+                    <img src="~/img/product1.png" />
+                </div>
+                <div class="col-lg-6 col-md-6 product-info">
+                    <h5><span class="price-span">PRICE:</span> $75.00</h5>
+                    <h1>Chuck Taylor Allstar 1970s Black</h1>
+                    <div class="product-rate">
+                        <div class="rating-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Rate<span class="point-rate">5/5</span></p>
+                    </div>
+                    <div class="product-size">
+                        <form action="#">
+                            <!-- <label class="label-size" for="size">Size</label> -->
+                            <select class="size-options" name="size" id="size">
+                                <option value="">Select Size</option>
+                                <option value="4.5US - 37EUR - 23.5cm">4.5US - 37EUR - 23.5cm</option>
+                                <option value="5US - 37.5EUR - 24cm">5US - 37.5EUR - 24cm</option>
+                                <option value="5.5US - 38EUR - 24.4cm">5.5US - 38EUR - 24.4cm</option>
+                            </select>
+                            <a href="#" class="size-chart"> <i class="fas fa-question-circle"></i> Size Chart</a>
+                            <br><br>
+                            <input class="btn-submit" type="submit" value="Add to Cart" />
+                        </form>
+                    </div>
+                    <div class="product-des">
+                        <h3>Overview</h3>
+                        <p>The classic design of the Converse Chuck 70s with the legendary black tone is being continuously sought by young people. The typical black background logo of the Chuck 70s gives the shoe an accent. The thick, light Canvas fabric in the high-neck version helps users get comfortable, each stitch is only cared much more meticulously.</p>
+                        <h3>Tags</h3>
+                        <a href="#" class="hastag">#1970s</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="feedback-form">
+    <div class="container">
+        <form class="cus-feedback">
+            <h5>Your Review</h5>
+            <input class="name-area" type="text" placeholder="Your Name" />
+            <br><br>
+            <div>
+                <textarea class="text-area form-control" id="my-textarea" name="" rows="3" placeholder="Your Review"></textarea>
+            </div>
+        </form>
+    </div>
+</section>
