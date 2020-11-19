@@ -6,7 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Home.css">
-    <link rel="stylesheet" href="slideshow.js">
     <script src="https://kit.fontawesome.com/dd3bcb13d3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -25,7 +24,8 @@
                     <div class="col-lg-6 col-md-5 top2">
                         <div class="header__top__right">
                             <div class="header__top__links">
-                                <a class="top-btn" href="#">Sign in</a>
+                                <a class="top-btn" href="#">Sign up |</a>
+                                <a class="top-btn" href="#">Sign in |</a>
                                 <a class="top-btn" href="#">FAQs</a>
                             </div>
                         </div>
@@ -34,53 +34,60 @@
             </div>
         </div>      
         <div class="nav navbar-expand-lg slider">
-            <a class="navbar-logo logo" href="#">
-                <img src="img/logo1.png"/>
-            </a>
-            <div class="collapse navbar_collapse">
-                <!-- relative + pointer -->
-                <ul class="navbar-nav">                  
-                    <li class="nav-item item1"> 
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item nav1"> 
-                        <a class="nav-link" href="#">Shoes</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Converse</a></li>
-                            <li><a href="#">Vans</a></li>
-                            <li><a href="#">Palladium</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="#">Clothing</a>
-                    </li>
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="#">Accessories</a>
-                    </li>
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="search-bar">
-                        <form class="form-search">
-                            <input class="input-search" type="text" id="search" name="search" placeholder="Search...">
-                            <button class="button-search">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </form>
-                    </li>
-                    <li class="cart-bar">
-                        <button class="button-cart">
-                            <i class="fas fa-shopping-cart"></i>
-                        </button>
-                    </li>
-                    <li class="price-bar">
-                        <div>$0.00</div>
-                    </li>
-                </ul>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                       <div class="header-logo">
+                        <a class="navbar-logo logo" href="#">
+                            <img src="img/logo1.png"/>
+                        </a>
+                       </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <nav class="header-menu">
+                            <ul class="navbar-nav">                  
+                                <li class="nav-item item1"> 
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item nav1"> 
+                                    <a class="nav-link" href="#">Shoes</a>
+                                    <!-- <ul class="dropdown">
+                                        <li><a href="#">Converse</a></li>
+                                        <li><a href="#">Vans</a></li>
+                                        <li><a href="#">Palladium</a></li>
+                                    </ul> -->
+                                </li>
+                                <li class="nav-item"> 
+                                    <a class="nav-link" href="#">Clothing</a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a class="nav-link" href="#">Accessories</a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="header-option">
+                            <ul>
+                                <li class="search-bar">                                   
+                                    <a href="#"><i class="fa fa-search search-btn"></i></a>                                   
+                                </li>
+                                <li class="cart-bar">
+                                    <a href="#"><i class="fas fa-shopping-cart cart-btn"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
+          
         </div>
     </header>
 

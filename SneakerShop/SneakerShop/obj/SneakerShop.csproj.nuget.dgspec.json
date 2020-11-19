@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CaoHienIT\\Source\\Repos\\Nhom21_TMDT\\SneakerShop\\SneakerShop\\SneakerShop.csproj": {}
+    "E:\\respo\\Nhom21_TMDT\\SneakerShop\\SneakerShop\\SneakerShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CaoHienIT\\Source\\Repos\\Nhom21_TMDT\\SneakerShop\\SneakerShop\\SneakerShop.csproj": {
+    "E:\\respo\\Nhom21_TMDT\\SneakerShop\\SneakerShop\\SneakerShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CaoHienIT\\Source\\Repos\\Nhom21_TMDT\\SneakerShop\\SneakerShop\\SneakerShop.csproj",
+        "projectUniqueName": "E:\\respo\\Nhom21_TMDT\\SneakerShop\\SneakerShop\\SneakerShop.csproj",
         "projectName": "SneakerShop",
-        "projectPath": "C:\\Users\\CaoHienIT\\Source\\Repos\\Nhom21_TMDT\\SneakerShop\\SneakerShop\\SneakerShop.csproj",
-        "packagesPath": "C:\\Users\\CaoHienIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CaoHienIT\\Source\\Repos\\Nhom21_TMDT\\SneakerShop\\SneakerShop\\obj\\",
+        "projectPath": "E:\\respo\\Nhom21_TMDT\\SneakerShop\\SneakerShop\\SneakerShop.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\respo\\Nhom21_TMDT\\SneakerShop\\SneakerShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CaoHienIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
